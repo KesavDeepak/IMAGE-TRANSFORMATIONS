@@ -51,7 +51,8 @@ import matplotlib.pyplot as plt
 image = cv2.imread('Tiger.jpg')
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  
 ```
-![image](https://github.com/user-attachments/assets/77f7f0f3-cc62-4f23-95f6-6ce418573eb2)
+<img width="302" height="411" alt="image" src="https://github.com/user-attachments/assets/71a75f66-7aca-449b-b5c1-1b33222d9226" />
+
 
 ### Image Translation
 ```
@@ -62,7 +63,8 @@ plt.imshow(translated_image)
 plt.title("Translated Image")
 plt.axis('off')
 ```
-![image](https://github.com/user-attachments/assets/8e2c786b-587a-4816-8ff9-3346f47a1205)
+<img width="302" height="411" alt="image" src="https://github.com/user-attachments/assets/3272ee7c-4e0c-4d70-a732-31b64efc7105" />
+
 
 ### Image Scaling
 ```
@@ -71,7 +73,8 @@ plt.imshow(scaled_image)
 plt.title("Scaled Image")
 plt.axis('off')
 ```
-![image](https://github.com/user-attachments/assets/f357adc7-dbfd-4eb1-9d10-8040c10a587c)
+<img width="515" height="302" alt="image" src="https://github.com/user-attachments/assets/bc5b3f3b-abf9-49b4-abc3-994952d1fa65" />
+
 
 ### Image shearing
 ```
@@ -81,7 +84,8 @@ plt.imshow(sheared_image)
 plt.title("Sheared Image")
 plt.axis('off')
 ```
-![image](https://github.com/user-attachments/assets/0ec52705-500b-4a17-b46f-db6f167f1211)
+<img width="302" height="411" alt="image" src="https://github.com/user-attachments/assets/197fbae2-6aad-4e4e-b436-289b828004a8" />
+
 
 ### Image Reflection
 ```
@@ -90,7 +94,8 @@ plt.imshow(reflected_image)
 plt.title("Reflected Image")
 plt.axis('off')
 ```
-![image](https://github.com/user-attachments/assets/9c78a33e-26df-4412-abfe-b317845abf15)
+<img width="302" height="411" alt="image" src="https://github.com/user-attachments/assets/d354261a-bbeb-47fc-8f62-dc6b9c2f6680" />
+
 
 ### Image Rotation
 ```
@@ -100,7 +105,8 @@ plt.imshow(rotated_image)
 plt.title("Rotated Image")
 plt.axis('off')
 ```
-![image](https://github.com/user-attachments/assets/ad87b93c-4c79-42a1-81d8-aab243c81ce5)
+<img width="302" height="411" alt="image" src="https://github.com/user-attachments/assets/df6b4154-3b53-4e13-84e5-9f39dbfd5157" />
+
 
 ### Image Cropping
 ```
@@ -111,7 +117,8 @@ plt.title("Cropped Image")
 plt.axis('off')
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/724b19af-be06-4de7-b090-4fa15ba754cf)
+<img width="512" height="411" alt="image" src="https://github.com/user-attachments/assets/5fcc4f2b-d511-4c34-a7ba-5710295a2a92" />
+
 
 ## Result: 
 Thus the different image transformations such as Translation, Scaling, Shearing, Reflection, Rotation and Cropping are done using OpenCV and python programming.
